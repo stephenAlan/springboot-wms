@@ -5,3 +5,7 @@ spring:
     url: jdbc:mysql://localhost:3306/test?useUnicode=true&characterEncoding=utf8&useSSL=false&allowMultiQueries=true&autoReconnect=true&useServerPrepStmts=true&cachePrepStmts=true&serverTimezone=GMT%2b8
     username: root
     password: 123456
+
+logging:
+  level:
+    com.stephen.wms.mapper: debug
